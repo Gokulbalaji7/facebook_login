@@ -34,6 +34,7 @@ public class fb_login {
 		Thread.sleep(2000);
 		org.openqa.selenium.io.FileHandler.copy(source, destination);
 
+		System.out.println("The login is success");
 	}
 
 }
